@@ -1,0 +1,46 @@
+{% extends 'basic.html' %}
+{% block title %} About {% endblock title %}
+{% block body %}
+{% load static %}
+ <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static '/img/Dileep5.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Python Developer &amp; Django Web Developer &amp; Fullstack Developer</h3>
+            <p class="fst-italic">
+              
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>08-01-2001</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>http://Github.com/Dileep1112</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>6303531049</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tirupathi, Andhrapradesh</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of commerce & Computer Applications</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>veligaramdileep2001@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Fulltime:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelancer:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+{% endblock body %}
